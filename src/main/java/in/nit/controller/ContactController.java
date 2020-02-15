@@ -34,6 +34,7 @@ public class ContactController {
 		return "contactData";
 	}
 
+	/** This mwthod is used for getting the contact records **/
 	@RequestMapping(value = "/all", method = RequestMethod.GET)
 	public String getContact(Model model) {
 		List<ContactInfo> list = service.getAllContact();
