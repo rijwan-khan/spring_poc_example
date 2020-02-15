@@ -30,6 +30,8 @@ public class ContactController {
 		boolean msg = service.saveContact(c);
 		// opopopo
 		// fdsgkjhdfgjdfhgk
+		// kakakka new commit conflic
+		// kkaaa
 		model.addAttribute("ob", c);
 		model.addAttribute("msg", msg);
 
