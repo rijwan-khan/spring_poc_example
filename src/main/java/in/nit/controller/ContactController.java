@@ -40,6 +40,7 @@ public class ContactController {
 		List<ContactInfo> list = service.getAllContact();
 		model.addAttribute("list", list);
 		System.out.println(list);
+		// ok i recieved ur commetns
 		return "contactData";
 	}
 
