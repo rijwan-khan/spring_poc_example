@@ -28,8 +28,8 @@ public class ContactController {
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public String readContact(@ModelAttribute("info") Contact c, Model model) {
 		boolean msg = service.saveContact(c);
-		thi.data = some daya
-		kakak
+		// opopopo
+		// fdsgkjhdfgjdfhgk
 		model.addAttribute("ob", c);
 		model.addAttribute("msg", msg);
 
