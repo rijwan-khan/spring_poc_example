@@ -75,6 +75,7 @@ public class ContactController {
 	boolean msg=service.deleteContact(sno);
 	model.addAttribute("sno", sno);
 	model.addAttribute("msg", msg);
+		dfdffdf ghjgh
 		return "deletecontact";
 		
 	}
