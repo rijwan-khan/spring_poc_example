@@ -32,6 +32,8 @@ public class ContactController {
 		// fdsgkjhdfgjdfhgk
 		bolean msgne - false;
 		intg aSda f
+		// kakakka new commit conflic
+		// kkaaa
 		model.addAttribute("ob", c);
 		model.addAttribute("msg", msg);
 
