@@ -30,6 +30,8 @@ public class ContactController {
 		boolean msg = service.saveContact(c);
 		// opopopo
 		// fdsgkjhdfgjdfhgk
+		bolean msgne - false;
+		intg aSda f
 		model.addAttribute("ob", c);
 		model.addAttribute("msg", msg);
 
